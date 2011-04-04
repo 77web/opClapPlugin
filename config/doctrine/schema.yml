@@ -1,0 +1,12 @@
+options:
+  charset: utf8
+
+Clap:
+  columns:
+    id:
+      type: integer(11)
+      primary: true
+      autoincrement: true
+    foreign_table: string(100)
+    foreign_id: integer(11)
+    claps: integer(11)

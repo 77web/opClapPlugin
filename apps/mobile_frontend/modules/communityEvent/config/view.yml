@@ -1,0 +1,7 @@
+showSuccess:
+  customize:
+    clapShow:
+      template: [clap, show]
+      parts: [communityEvent]
+      target: [lastRow]
+      is_component: true

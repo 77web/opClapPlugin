@@ -2,7 +2,7 @@
 
 class opClapPluginClapActions extends sfActions
 {
-  public function executeRegist(sfWebRequest $request)
+  public function executeRegister(sfWebRequest $request)
   {
     $this->form = new ClapForm();
     $this->form->bind($request->getParameter($this->form->getName()));

@@ -1,0 +1,1 @@
+<?php echo __('You are not allowed to %clap% this.', array('%clap%'=>sfConfig::get('app_clap_name'))); ?>

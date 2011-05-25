@@ -6,6 +6,10 @@
         <source>Delete %clap%</source>
         <target>×</target>
       </trans-unit>
+      <trans-unit id="">
+        <source>You are not allowed to %clap% this.</source>
+        <target>%clap%できません。</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

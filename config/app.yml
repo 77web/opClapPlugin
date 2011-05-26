@@ -1,2 +1,4 @@
 all:
-  clap_name: "拍手"
+  clap:
+    name: "拍手"
+    count_alerts: [100,200,300]
